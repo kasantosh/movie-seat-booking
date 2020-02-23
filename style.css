@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
@@ -34,7 +34,7 @@ body {
 
 
 .container {
-  perspective: 2000px;
+  perspective: 1000px;
   margin-bottom: 30px;
 }
 
@@ -103,6 +103,14 @@ body {
   height: 70px;
   width: 100%;
   margin: 15px 0;
-  transform: rotateX(-45);
+  transform: rotateX(-45deg);
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.5);
+}
+
+p.text {
+  margin: 5px 0;
+}
+
+p.text span {
+  color: #6feaf6;
 }
